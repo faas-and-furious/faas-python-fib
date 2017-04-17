@@ -3,9 +3,11 @@ A [FaaS](http://get-faas.com) function to generate the first N fib numbers
 
 You can execute the function like this:
 
-`curl http://localhost:8080/function/func_fib -d "https://www.docker.com/sites/default/files/social/docker-facebook-share.png"`
+`curl http://localhost:8080/function/func_fib -d "10"`
 
 (or use the FaaS UI to send the URL)
+
+![](https://pbs.twimg.com/media/C9oep7KUMAAb_eZ.jpg:large)
 
 ## Installation
 
