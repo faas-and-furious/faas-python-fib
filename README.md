@@ -38,8 +38,8 @@ ascii:
 Hit the `CREATE NEW FUNCTION` button and add these details:
 
 - Image: `developius/faas-python-fib:latest`
-- Service name: `ascii`
-- fProcess: `node /app/index.js`
+- Service name: `fib`
+- fProcess: `python main.py`
 - Network: `func_functions`
 
 Hit create!
