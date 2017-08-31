@@ -1,0 +1,10 @@
+provider:
+  name: faas
+  provider: faas
+  gateway: http://localhost:8080
+
+functions:
+  fib:
+    lang: python
+    handler: ./handler
+    image: developius/faas-python-fib
